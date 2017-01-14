@@ -28,6 +28,10 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
+*
+{
+
+}
 body {
   line-height: 1;
 }
@@ -54,6 +58,11 @@ header, footer {
     clear: left;
     height: 50px;
 }
+article,aside,content
+{
+  text-align: left-justify;
+  line-height: 1.2em;
+}
 header
 {
   color: black;
@@ -71,6 +80,7 @@ aside
 }
 content
 {
+  height: inherit;
  float:left;
   max-width: 40%;
 }
