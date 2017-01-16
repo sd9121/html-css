@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css?family=Pontano+Sans');
+@import url('https://fonts.googleapis.com/css?family=Bad+Script');
+
+/**
+ * Reset Content.
+ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* reset.css ends */
+
+/* page.css */
+body{
+  color:  #666666
+}
+h3{
+  font-size: 30px;
+  text-transform: uppercase;
+}
+img
+{
+  height: 100px;
+  width: 100px;
+  padding-right:30px;
+  padding-top:60px;
+  margin-left: 100px;
+}
+section.summary,
+section.preamble,
+.summary ,
+.explanation,
+.benefits,
+.requirements,
+.participation{
+  font-size: 1em;
+  line-height: 1.25em;
+  margin: 1.25em 0;
+  text-align: justify;
+}
+p{
+  font-size: 1em;
+  line-height: 1.25em;
+  margin: 1.25em 0;
+  text-align: justify;
+}
+.summary,
+.preamble,
+.explanation,
+.benefits,
+.requirements,
+.participation
+{
+   padding-left: 100px;
+   padding-right: 80px;
+  /*padding-top: 10px;
+  padding-left: 70px;
+  padding-bottom:30px;*/
+}
+.design-selection,
+.design-archives,
+.zen-resources
+{
+padding-left: 70px;
+}
+aside a{
+  text-transform: uppercase;
+  color: darkgrey;
+  text-decoration: none;
+}
+.design-archives a,
+.zen-resources a{
+ border-bottom: 1px solid grey;
+}
+.design-archives a,
+.zen-resources a{
+padding-bottom: 10px;
+}
+footer p
+{
+  text-align: center;
+  padding-top: 40px;
+  font-size: 23px;
+  color: #a6a6a6;
+  line-height: 50px;
+  font-style: italic;
+  font-family:serif;
+}
+footer p a
+{
+  font-style: normal;
+  color:#cccccc;
+  text-decoration:none;
+}
+/*=================================*/
+
+/* header.css */
+header{
+  clear: both;
+  background-image: url("../images/huntington.jpg");
+  background-size: cover;
+  height: 209px;
+  color: #D0D3D4;
+  font-family: 'Pontano Sans', sans-serif;
+
+}
+header h1{
+  padding-left: 7%;
+  font-size: 60px;
+  margin-top: -89px;
+  margin-left: 140px;
+}
+header h2{
+  padding-left: 17%;
+  font-style: italic;
+  font-family:serif;
+  font-size: 30px;
+}
+/*=================================*/
+
+/* content.css */
+.preamble
+{
+ padding-top: 20px;
+ padding-bottom: 20px;
+}
+.requirements{
+  padding-top:30px;
+}
+.explanation{
+  padding-bottom:30px;
+}
+.content-wrapper{
+  width: 70%;
+  float: left;
+}
+.shadow{
+  /*background:rgba(75,175,80,0.5);*/
+  background: url("../images/bamboo.png");
+  width: 100%;
+  height: 450px;
+  padding-top: 50px;
+}
+.nav-shadow{
+  background: url("../images/bamboo.png");
+  /*background:rgba(75,175,80,0.5);*/
+  width: 100%;
+  height: 450px;
+  padding-top: 50px;
+}
+.design-selection{
+  padding-top: 48px;
+  padding-bottom: 70px;
+}
+.designer-name{
+  text-transform:capitalize;
+}
+.design-archives{
+  padding-top: 26px;
+}
+.design-selection nav{
+  padding-top: 200px;
+}
+.footerbar{
+  background:#003333;
+  opacity: 0.85;
+  height: 150px;
+}
+.select{
+  background: url("../images/bamboo.png");
+  width: 200px;
+  height: 50px;
+  border:1px solid #e6ffe6;
+  font-size: 20px;
+  text-align: center;
+  line-height: 50px;
+}
+#cirlce{
+  padding:10px;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  border:1px solid #a3c2c2;
+  border-radius: 50px;
+  margin-right: 2px;
+}
+ .footerbar li{
+  display: inline-block;
+  margin-left:103px;
+  margin-top: 40px;
+  text-align: center;
+}
+.summary a
+{
+  text-transform: uppercase;
+  color: #D0D3D4;
+}
+/*=================================*/
+
+
+/* footer.css */
+footer {
+  clear: both;
+  background-image: url("../images/footer.jpg");
+  background-size: cover;
+  height: 210px;
+  color: #D0D3D4;
+  font-family: 'Pontano Sans', sans-serif;
+
+}
+/*=================================*/
+
+
+/* Sidebar CSS */
+aside{
+  background-color: rgba(190, 243, 214, 0.3);
+  width: 30%;
+  float: right;
+  margin-top: -210px;
+  height: 2000px;
+}
+/*aside ul{
+  padding-top: 200px;
+}*/
+aside ul li{
+  font-size: 1em;
+  line-height: 1.25em;
+  margin: 1.25em 0;
+  text-align: justify;
+}
+/*=================================*/
+
+
