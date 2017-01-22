@@ -1,7 +1,8 @@
 
 @import url('https://fonts.googleapis.com/css?family=Pontano+Sans');
 @import url('https://fonts.googleapis.com/css?family=Bad+Script');
-
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One&subset=latin-ext');
+/*font-family: 'Julius Sans One', sans-serif;*/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -49,9 +50,6 @@ table {
 /* reset.css ends */
 
 /* page.css */
-
-
-
 body{
   position: relative;
   color:  #666666
@@ -62,10 +60,17 @@ h3{
   padding-bottom: 20px;
   text-align: justify;
   line-height: 20px;
+   font-family: 'Julius Sans One', sans-serif;
 }
+a{text-decoration: none;}
 .content-wrapper{
   width: 100%;
   float: left;
+}
+.upper-line{
+height: 8px;
+border:1px solid #0c5752;
+background-color: #0c5752;;
 }
 .summary a{
 color: lightgrey;
@@ -80,8 +85,8 @@ text-transform: uppercase;
   padding-top: 48px;
   padding-bottom: 70px;
 }
-.design-selection h3{
-
+.design-name{
+ font-family: 'Julius Sans One', sans-serif;
 }
 .designer-name{
   text-transform:capitalize;
@@ -92,10 +97,14 @@ text-transform: uppercase;
 .design-selection nav{
   padding-top: 200px;
 }
+.zen-resources{
+  font-family: 'Julius Sans One', sans-serif;
+}
 .design-selection,
 .design-archives,
 .zen-resources
 {
+  margin-top:50px;
 padding-left: 70px;
 }
 aside a{
@@ -109,7 +118,7 @@ aside a{
 }
 .design-archives a,
 .zen-resources a{
-padding-bottom: 10px;
+padding-bottom: 17px;
 }
 @media screen and (max-width: 640px)
 {
@@ -142,13 +151,12 @@ padding-bottom: 15px;
 /*=========================================*/
 /* header.css */
 header{
+   font-family: 'Julius Sans One', sans-serif;
   height: 200px;
   clear: both;
   background-image: url("../images/huntington.jpg");
   background-size: cover;
   color: #D0D3D4;
-  font-family: 'Pontano Sans', sans-serif;
-
 }
 header h1{
   font-size: 60px;
@@ -173,6 +181,12 @@ header h2{
 img{
 margin-left: -75px;
 }
+.right-arrow {
+    width: 44px;
+    height: 60px;
+    margin-left: 220px;
+    margin-top: -62px;
+}
 }
 @media screen and (max-width: 1024px)
 {
@@ -186,6 +200,19 @@ header h2{
 }
 img{
 margin-left: -75px;
+}
+.right-arrow {
+    width: 44px;
+    height: 60px;
+    margin-left: 220px;
+    margin-top: -62px;
+}
+}
+@media screen and (max-width: 320px)
+{
+
+header h1{
+  font-size:38px;
 }
 }
 /*=================================*/
@@ -221,8 +248,8 @@ font-size: 1em;
 .participation{
   padding-top: 20px;
    background: url("../images/bamboo.png");
+   background-color: #b7d8cc;
    clear: both;
-
 }
 .participation p, .participation h3{
   padding-right: 37%;
@@ -239,7 +266,8 @@ padding-bottom:50px;
 }
 .benefits
 {
-   background: url("../images/bamboo.png");
+background: url("../images/bamboo.png");
+background-color: #b7d8cc;
 width: 100%;
 float: left;
 font-size: 1em;
@@ -325,10 +353,18 @@ margin-left: 0px;
 h3{
   margin-left: 5.5%;
 }
-
-
 }
-
+@media screen and (min-width:641px) and (max-width: 1024px)
+{
+  .participation p, .participation h3{
+  padding-left: 8%;
+  padding-right: 27%;
+}
+.benefits p, .benefits h3{
+ padding-left: 8%;
+   padding-right: 27%;
+}
+}
 /*Footer Properties*/
 footer {
   clear: both;
@@ -362,14 +398,29 @@ footer p a
 }
 .select{
   background: url("../images/bamboo.png");
-  width: 200px;
+  width: 170px;
   height: 20px;
-  border:1px solid #e6ffe6;
-  font-size: 20px;
+  border:1px solid #54a095;
+  font-size: 14px;
   text-align: center;
   line-height: 50px;
-  margin-top:22px;
-  color: white;
+
+  background-color:#54a095;
+  color:#a5b5b5;
+}
+.right-arrow{
+  background: url();
+  background: url("../images/right-arrow.png");
+  background-size:cover;
+  width: 30px;
+  height: 40px;
+  border:1px solid #54a095 ;
+  text-align: center;
+  background-color:#54a095;
+  color:#a5b5b5;
+  margin-left: 173px;
+  margin-top: -42px;
+
 }
 #cirlce{
   padding:10px;
@@ -382,15 +433,47 @@ footer p a
 }
  .footerbar li{
   display: inline-block;
-  margin-left:103px;
-  margin-top: 40px;
   text-align: center;
+  padding-top: 50px;
+  padding-right: 70px;
 }
-@media screen and (max-width: 1024px){
+.footerbar ul{
+  margin-left:280px;
+
+}
+  @media screen and (min-width:321px) and  (max-width: 1023px){
   .footerbar{
   height: 210px;
 }
+.footerbar ul{
+  margin-left:100px;
+}
+.footerbar li{
+  font-size: 8px;
+  padding-right: 37px;
   }
+  #cirlce{
+  height: 22px;
+  width: 22px;
+}
+
+}
+@media screen and  (max-width: 1024px){
+  .footerbar{
+  height: 210px;
+}
+.footerbar ul{
+  margin-left:170px;
+
+}
+.right-arrow{
+   width: 44px;
+    height: 60px;
+    margin-left: 202px;
+    margin-top: -62px;
+}
+  }
+
 @media screen and (max-width: 640px){
 footer{
   height: 280px;
@@ -399,7 +482,7 @@ footer{
 }
 footer p
 {
-font-size: 20px;
+font-size: 18px;
 }
 .footerbar{
   padding-top: 0px;
@@ -407,17 +490,51 @@ font-size: 20px;
   height: 140px;
 }
 #cirlce{
-  height: 40px;
-  width: 40px;
+  height: 25px;
+  width: 25px;
 margin-right: 0px;
 }
+.footerbar ul{
+  margin-left:10px;
+}
 .footerbar li{
-margin-left: -5px;
-font-size: 12px;
-margin-right: 6px;
+font-size: 9px;
+margin-right: 14px;
+margin-top:12px;
+padding-right:0px;
+}
+}
+@media screen and (max-width: 320px){
+.footerbar ul{
+  margin-left:0px;
+}
+.footerbar li{
+font-size: 7px;
 margin-top:15px;
+margin-right: 0px;
+padding-right:12px;
+}
+#cirlce{
+  height: 20px;
+  width: 20px;
+margin-right: 0px;
+}
+.right-arrow{
+   width: 44px;
+    height: 60px;
+    margin-left: 217px;
+    margin-top: -62px;
 }
 }
+@media screen and (min-width: 641px) and (max-width:1023px){
+   .footer ul{
+    margin-left: 120px;
+   }
+  .footer li
+  {
+    padding-right: 28px;
+  }
+  }
 /*===============================*/
 /* Sidebar CSS */
 aside{
@@ -427,7 +544,7 @@ aside{
   position: absolute;
   top: 0;
   right: 0;
-  bottom: 380px;
+  bottom:380px;
 }
 /*aside ul{
   padding-top: 200px;
@@ -436,7 +553,6 @@ aside ul li{
   font-size: 1em;
   line-height: 1.25em;
   margin: 1.25em 0;
-  text-align: justify;
 }
 
 @media screen and (max-width: 1024px){
@@ -470,4 +586,12 @@ aside{
   width: 200px;
   }
 }
+ @media screen and (min-width:321px) and  (max-width: 640px){
+  .right-arrow{
+   width: 44px;
+    height: 60px;
+    margin-left: 224px;
+    margin-top: -62px;
+}
+  }
 /*=================================*/
