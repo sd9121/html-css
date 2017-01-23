@@ -1,8 +1,18 @@
-
 @import url('https://fonts.googleapis.com/css?family=Pontano+Sans');
 @import url('https://fonts.googleapis.com/css?family=Bad+Script');
 @import url('https://fonts.googleapis.com/css?family=Julius+Sans+One&subset=latin-ext');
 /*font-family: 'Julius Sans One', sans-serif;*/
+@font-face {
+  font-family: 'icomoon';
+  src: url('fonts/icomoon.eot');
+  src: url('fonts/icomoon.woff2') format('woff2'),
+       url('fonts/icomoon.woff') format('woff'),
+       url('fonts/icomoon.ttf') format('truetype'),
+       url('fonts/icomoon.svg#icomoon') format('svg'),
+       url('fonts/icomoon.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -60,7 +70,7 @@ h3{
   padding-bottom: 20px;
   text-align: justify;
   line-height: 20px;
-   font-family: 'Julius Sans One', sans-serif;
+  font-family: 'Julius Sans One', sans-serif;
 }
 a{text-decoration: none;}
 .content-wrapper{
@@ -68,13 +78,13 @@ a{text-decoration: none;}
   float: left;
 }
 .upper-line{
-height: 8px;
-border:1px solid #0c5752;
-background-color: #0c5752;;
+  height: 8px;
+  border:1px solid #0c5752;
+  background-color: #0c5752;
 }
 .summary a{
-color: lightgrey;
-text-transform: uppercase;
+  color: lightgrey;
+  text-transform: uppercase;
 }
 .design-selection nav{
   margin-top: -140px;
@@ -86,7 +96,7 @@ text-transform: uppercase;
   padding-bottom: 70px;
 }
 .design-name{
- font-family: 'Julius Sans One', sans-serif;
+  font-family: 'Julius Sans One', sans-serif;
 }
 .designer-name{
   text-transform:capitalize;
@@ -105,7 +115,7 @@ text-transform: uppercase;
 .zen-resources
 {
   margin-top:50px;
-padding-left: 70px;
+  padding-left: 70px;
 }
 aside a{
   text-transform: uppercase;
@@ -114,11 +124,11 @@ aside a{
 }
 .design-archives a,
 .zen-resources a{
- border-bottom: 1px solid grey;
+  border-bottom: 1px solid grey;
 }
 .design-archives a,
 .zen-resources a{
-padding-bottom: 17px;
+  padding-bottom: 17px;
 }
 @media screen and (max-width: 640px)
 {
@@ -141,17 +151,17 @@ padding-bottom: 17px;
 .zen-resources
 {
   font-size: 15px;
-padding-left: 40px;
+  padding-left: 40px;
 }
 .design-archives a,
 .zen-resources a{
-padding-bottom: 15px;
+  padding-bottom: 15px;
 }
 }
 /*=========================================*/
 /* header.css */
 header{
-   font-family: 'Julius Sans One', sans-serif;
+  font-family: 'Julius Sans One', sans-serif;
   height: 200px;
   clear: both;
   background-image: url("../images/huntington.jpg");
@@ -182,10 +192,10 @@ img{
 margin-left: -75px;
 }
 .right-arrow {
-    width: 44px;
-    height: 60px;
-    margin-left: 220px;
-    margin-top: -62px;
+  width: 44px;
+  height: 60px;
+  margin-left: 220px;
+  margin-top: -62px;
 }
 }
 @media screen and (max-width: 1024px)
@@ -199,18 +209,17 @@ header h2{
   margin-left: 140px;
 }
 img{
-margin-left: -75px;
+  margin-left: -75px;
 }
 .right-arrow {
-    width: 44px;
-    height: 60px;
-    margin-left: 220px;
-    margin-top: -62px;
+  width: 44px;
+  height: 60px;
+  margin-left: 220px;
+  margin-top: -62px;
 }
 }
 @media screen and (max-width: 320px)
 {
-
 header h1{
   font-size:38px;
 }
@@ -219,8 +228,8 @@ header h1{
 /* Logo */
 .logo
 {
-   height: 50px;
-   width: 50px;
+  height: 50px;
+  width: 50px;
   background-repeat: no-repeat;
   background:5px solid blue;
   margin-left: 80px;
@@ -228,21 +237,21 @@ header h1{
 img
 {
   height: 120px;
-   width: 120px;
-   position: absolute;
-   top: 30px;
+  width: 120px;
+  position: absolute;
+  top: 30px;
 }
 
 /*=================================*/
 .main-supporting
 {
-width: 60%;
-float: left;
-font-size: 1em;
+  width: 60%;
+  float: left;
+  font-size: 1em;
   line-height: 1.25em;
   margin: 1.25em 0;
   text-align: justify;
- margin-left: 80px;
+  margin-left: 80px;
 
 }
 .participation{
@@ -259,47 +268,47 @@ font-size: 1em;
 .explanation,
 .participation
 {
-padding-bottom:50px;
+  padding-bottom:50px;
 }
 .participation {
   width: 100%;
 }
 .benefits
 {
-background: url("../images/bamboo.png");
-background-color: #b7d8cc;
-width: 100%;
-float: left;
-font-size: 1em;
+  background: url("../images/bamboo.png");
+  background-color: #b7d8cc;
+  width: 100%;
+  float: left;
+  font-size: 1em;
   line-height: 1.25em;
   margin: 1.25em 0;
   text-align: justify;
- margin-top:0px;
- padding-bottom: 30px;
+  margin-top:0px;
+  padding-bottom: 30px;
 }
 .benefits p, .benefits h3{
- padding-right: 38%;
- padding-left: 5.5%;
+  padding-right: 38%;
+  padding-left: 5.5%;
 }
 .requirements{
-width: 60%;
-float: left;
-font-size: 1em;
+  width: 60%;
+  float: left;
+  font-size: 1em;
   line-height: 1.25em;
   margin: 1.25em 0;
   text-align: justify;
- margin-left: 80px;
+  margin-left: 80px;
 }
 .summary,
 .preamble
 {
-width: 60%;
-float: left;
-font-size: 1em;
+  width: 60%;
+  float: left;
+  font-size: 1em;
   line-height: 1.25em;
   margin: 1.25em 0;
   text-align: justify;
- margin-left: 80px;
+  margin-left: 80px;
 
 }
 @media screen and (max-width: 1024px)
@@ -308,16 +317,15 @@ font-size: 1em;
 .preamble,
 .main-supporting
 {
-width: 65%;
-margin-bottom: 0px;
+  width: 65%;
+  margin-bottom: 0px;
 }
 .benefits{
-width: 100%;
+  width: 100%;
 }
 .requirements{
-width: 65%;
-
-margin-bottom: 280px;
+  width: 65%;
+  margin-bottom: 280px;
 }
 }
 @media screen and (max-width: 640px)
@@ -331,21 +339,21 @@ p {
 .main-supporting
 {
   margin-left:0px;
-width: 100%;
-margin-bottom: 0px;
+  width: 100%;
+  margin-bottom: 0px;
 }
 .benefits{
-width: 100%;
-line-height: 20px;
+  width: 100%;
+  line-height: 20px;
 }
 
 .benefits p, .participation p{
   padding-right: 5.5%;
 }
 .requirements{
-width: 100%;
-margin-bottom: 210px;
-margin-left: 0px;
+  width: 100%;
+  margin-bottom: 210px;
+  margin-left: 0px;
 }
 .benefits h3, .participation h3{
   margin-left: 0px;
@@ -356,7 +364,7 @@ h3{
 }
 @media screen and (min-width:641px) and (max-width: 1024px)
 {
-  .participation p, .participation h3{
+.participation p, .participation h3{
   padding-left: 8%;
   padding-right: 27%;
 }
@@ -404,7 +412,6 @@ footer p a
   font-size: 14px;
   text-align: center;
   line-height: 50px;
-
   background-color:#54a095;
   color:#a5b5b5;
 }
@@ -420,7 +427,6 @@ footer p a
   color:#a5b5b5;
   margin-left: 173px;
   margin-top: -42px;
-
 }
 #cirlce{
   padding:10px;
@@ -432,6 +438,8 @@ footer p a
   margin-right: 2px;
 }
  .footerbar li{
+   font-family: "icomoon";
+   font-size: 70px;
   display: inline-block;
   text-align: center;
   padding-top: 50px;
@@ -439,8 +447,8 @@ footer p a
 }
 .footerbar ul{
   margin-left:280px;
-
 }
+
   @media screen and (min-width:321px) and  (max-width: 1023px){
   .footerbar{
   height: 210px;
@@ -449,14 +457,13 @@ footer p a
   margin-left:100px;
 }
 .footerbar li{
-  font-size: 8px;
+  font-size: 50px;
   padding-right: 37px;
   }
   #cirlce{
   height: 22px;
   width: 22px;
 }
-
 }
 @media screen and  (max-width: 1024px){
   .footerbar{
@@ -464,7 +471,6 @@ footer p a
 }
 .footerbar ul{
   margin-left:170px;
-
 }
 .right-arrow{
    width: 44px;
@@ -472,8 +478,7 @@ footer p a
     margin-left: 202px;
     margin-top: -62px;
 }
-  }
-
+}
 @media screen and (max-width: 640px){
 footer{
   height: 280px;
@@ -482,7 +487,7 @@ footer{
 }
 footer p
 {
-font-size: 18px;
+  font-size: 18px;
 }
 .footerbar{
   padding-top: 0px;
@@ -492,16 +497,16 @@ font-size: 18px;
 #cirlce{
   height: 25px;
   width: 25px;
-margin-right: 0px;
+  margin-right: 0px;
 }
 .footerbar ul{
-  margin-left:10px;
+  margin-left:60px;
 }
 .footerbar li{
-font-size: 9px;
-margin-right: 14px;
-margin-top:12px;
-padding-right:0px;
+  font-size: 25px;
+  margin-right: 24px;
+  margin-top:12px;
+  padding-right:0px;
 }
 }
 @media screen and (max-width: 320px){
@@ -509,32 +514,32 @@ padding-right:0px;
   margin-left:0px;
 }
 .footerbar li{
-font-size: 7px;
-margin-top:15px;
-margin-right: 0px;
-padding-right:12px;
+  font-size: 25px;
+  margin-top:15px;
+  margin-right: 18px;
+  padding-right:12px;
 }
 #cirlce{
   height: 20px;
   width: 20px;
-margin-right: 0px;
+  margin-right: 0px;
 }
 .right-arrow{
-   width: 44px;
-    height: 60px;
-    margin-left: 217px;
-    margin-top: -62px;
+  width: 44px;
+  height: 60px;
+  margin-left: 217px;
+  margin-top: -62px;
 }
 }
 @media screen and (min-width: 641px) and (max-width:1023px){
-   .footer ul{
-    margin-left: 120px;
-   }
-  .footer li
-  {
-    padding-right: 28px;
-  }
-  }
+.footer ul{
+  margin-left: 120px;
+}
+.footer li
+{
+  padding-right: 28px;
+}
+}
 /*===============================*/
 /* Sidebar CSS */
 aside{
@@ -546,15 +551,11 @@ aside{
   right: 0;
   bottom:380px;
 }
-/*aside ul{
-  padding-top: 200px;
-}*/
 aside ul li{
   font-size: 1em;
   line-height: 1.25em;
   margin: 1.25em 0;
 }
-
 @media screen and (max-width: 1024px){
 .select{
   width: 200px;`
@@ -567,8 +568,7 @@ aside ul li{
 }
 aside{
   width:100%;
-position: initial;
-
+  position: initial;
 }
 }
 @media screen and (max-width: 640px){
@@ -587,11 +587,11 @@ aside{
   }
 }
  @media screen and (min-width:321px) and  (max-width: 640px){
-  .right-arrow{
-   width: 44px;
-    height: 60px;
-    margin-left: 224px;
-    margin-top: -62px;
+.right-arrow{
+  width: 44px;
+  height: 60px;
+  margin-left: 224px;
+  margin-top: -62px;
 }
-  }
+}
 /*=================================*/
