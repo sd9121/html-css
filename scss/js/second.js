@@ -1,0 +1,2 @@
+function secondFile()
+{return 'second';}
