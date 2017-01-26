@@ -47,6 +47,7 @@ gulp.src(['css/style.css'])
 
 gulp.task('default', ['compass', 'browserSync'], function() {
    gulp.watch("sass/*.scss", ['compass']);
-   gulp.watch("css/*.css", ['styles']);
+  gulp.watch("css/*.css", ['styles']);
+   gulp.watch("", ['browserSync']);
 });
 

@@ -32,7 +32,6 @@
   top: 50%;
   text-align: center;
   width: 100%;
-  padding: 18px;
   font-size: 25px;
   letter-spacing: 10px;
   color: white;
@@ -74,4 +73,16 @@ h3 {
 .content-demo p {
   background-color: white;
   color: grey;
+}
+
+@media (min-width: 320px) and (max-width: 640px) {
+  .caption {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 640px) {
+  .caption span.border {
+    font-size: 15px;
+  }
 }

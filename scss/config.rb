@@ -1,6 +1,7 @@
 # Require any additional compass plugins here.
 require 'compass'
 require 'susy'
+require 'breakpoint'
 # Set this to the root of your project when deployed:
 css_dir = "css"
 sass_dir = "sass"

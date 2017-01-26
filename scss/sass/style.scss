@@ -1,4 +1,8 @@
 @import "susy";
+@import "breakpoint";
+$mobile:320px 640px;
+$ipad:768px;
+
 *{
   margin:0px;
   padding:0px;
@@ -38,7 +42,6 @@ $susy: (
   top:50%;
   text-align:center;
   width:100%;
-   padding: 18px;
     font-size: 25px;
     letter-spacing: 10px;
     color:white;
@@ -76,4 +79,15 @@ h3{
 .content-demo p{
   background-color:white;
   color:grey;
+}
+
+.caption{
+  @include breakpoint($mobile){
+  font-size:15px;
+  }
+}
+.caption span.border{
+  @include breakpoint($mobile){
+  font-size:15px;
+  }
 }
