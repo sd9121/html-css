@@ -1,8 +1,10 @@
+/* Rest Page*/
 * {
   margin: 0px;
   padding: 0px;
 }
 
+/*=================*/
 .bg-image1, .bg-image2, .bg-image3 {
   background-attachment: fixed;
   background-position: center;
@@ -13,12 +15,14 @@
   position: relative;
 }
 
+/*Background Images*/
 .bg-image1 {
-  min-height: 800px;
+  height: 100vh;
   background-image: url("http://www.w3schools.com/howto/img_parallax.jpg");
 }
 
 .bg-image2 {
+  height: 40vh;
   background-image: url("http://www.w3schools.com/howto/img_parallax2.jpg");
 }
 
@@ -26,6 +30,7 @@
   background-image: url("http://www.w3schools.com/howto/img_parallax3.jpg");
 }
 
+/*======================*/
 .caption {
   position: absolute;
   left: 0px;
@@ -40,7 +45,7 @@
 .caption span.border {
   background-color: #111;
   color: #fff;
-  padding: 18px;
+  padding: 19px 25px;
   font-size: 25px;
   letter-spacing: 10px;
 }
@@ -67,22 +72,32 @@ h3 {
   -webkit-margin-after: 0em;
   -webkit-margin-start: 0px;
   -webkit-margin-end: 0px;
-  font-weight: bold;
 }
 
 .content-demo p {
   background-color: white;
+  padding: 10px 25px;
   color: grey;
 }
 
+p {
+  padding: 10px 25px;
+}
+
+/* Media query */
 @media (min-width: 320px) and (max-width: 640px) {
   .caption {
-    font-size: 15px;
+    font-size: 10px;
+    letter-spacing: 3px;
   }
 }
 
 @media (min-width: 320px) and (max-width: 640px) {
   .caption span.border {
-    font-size: 15px;
+    font-size: 10px;
+    padding: 7px 7px;
+    letter-spacing: 2px;
   }
 }
+
+/*================*/
