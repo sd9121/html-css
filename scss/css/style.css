@@ -95,8 +95,10 @@ h3 {
   color: grey;
 }
 
-p {
-  padding: 10px 25px;
+@media (min-width: 320px) and (max-width: 640px) {
+  p {
+    padding: 10px 25px;
+  }
 }
 
 /*================*/

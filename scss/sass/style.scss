@@ -106,7 +106,9 @@ h3 {
 }
 
 p {
-    padding: 10px 25px;
+    @include breakpoint($mobile) {
+        padding: 10px 25px;
+    }
 }
 
 
